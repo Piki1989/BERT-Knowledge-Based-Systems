@@ -75,3 +75,5 @@ Contains evaluation utilities and experiments. This module includes scripts for:
 Contains a Jupyter notebook used for generating embeddings for the dataset. This notebook was used in the experiments and in the preparation of results for the paper. It supports batch embedding generation and export for downstream evaluation and retrieval tasks.
 
 papers_info.txt -> This file contains the authors, titles, and DOIs of all publications that were used in the dataset.
+
+Huggingface repository for finetuned models https://huggingface.co/Piki1989/Bert-Knowledge-Based-Sytems-Paper-Collection/tree/main
