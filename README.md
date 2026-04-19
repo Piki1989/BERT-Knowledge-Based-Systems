@@ -56,4 +56,22 @@ This project provides a full pipeline for:
 
 The result is a scalable and reproducible approach to improving semantic search in specialized datasets.
 
+## Repository structure
+
+The repository is organized into three main modules:
+
+### `train/`
+Contains scripts used for model fine-tuning. This includes training pipelines for domain-adaptive pretraining and contrastive embedding learning. The scripts are designed to run full training workflows for embedding models on the prepared scientific corpus.
+
+### `eval/`
+Contains evaluation utilities and experiments. This module includes scripts for:
+- evaluating trained embedding models
+- comparing model performance on query–document matching tasks
+- running ensemble evaluation
+- executing the genetic algorithm used for selecting optimal model subsets
+- generating plots and analysis of results
+
+### `embedding/`
+Contains a Jupyter notebook used for generating embeddings for the dataset. This notebook was used in the experiments and in the preparation of results for the paper. It supports batch embedding generation and export for downstream evaluation and retrieval tasks.
+
 papers_info.txt -> This file contains the authors, titles, and DOIs of all publications that were used in the dataset.
